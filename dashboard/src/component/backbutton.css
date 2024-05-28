@@ -1,0 +1,40 @@
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bg-sky-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(7 89 133 / var(--tw-bg-opacity));
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    /* vertical-align: middle; */
+}
+.flex {
+    display: flex;
+}
